@@ -1,0 +1,222 @@
+
+:root {
+    --body-bg-color: #000000;
+    --purple: #cedce0;
+  }
+  #gatinhos {
+    align-items: left;
+    justify-content: left;
+
+    width: 168px;
+    height: 168px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  /*  */
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container .tree-container {
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tree-container .avatar {
+    width: 50px;
+    height: 50px;
+    justify-content: left;
+  
+    display: flex;
+    align-items: left;
+    justify-content: left;
+  
+    border: 1px solid var();
+    border-radius: 50%;
+  }
+  
+  
+  .tree-container .instagram-user {
+    margin-top: 15px;
+    color: var(--purple);
+  }
+  
+  .tree-container .links-container {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .links-container .link {
+    margin-top: 10px;
+    width: 100px;
+  
+    border: 2px solid var(--purple);
+    border-radius: 4px;
+  
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+  
+    padding: 12px 0;
+  
+    transition: ease 0.3s;
+  }
+  
+  .links-container .link:hover {
+    background: var(--purple);
+    color: var(--body-bg-color);
+  
+    transition: ease 0.5s;
+  }
+  
+  
+  .socials-container .social {
+    transform: scale(0.9);
+  
+    transition: ease 0.2s;
+  }
+
+
+
+  body,
+html {
+  font-family: "Poppins", sans-serif;
+
+
+
+  background-image: linear-gradient(
+
+ rgb(150, 150, 150),
+ rgb(152, 152, 152)
+
+
+  );
+}
+
+
+a{
+    font-size: large;
+
+    background-image: linear-gradient(
+
+
+    rgb(0, 0, 0),
+    rgb(0, 0, 0)
+
+    )   ;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+
+
+
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.container .tree-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: left;
+}
+
+.tree-container .avatar {
+  width: 300px;
+  height: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid var();
+  border-radius: 50%;
+}
+
+.tree-container .avatar img {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50%;
+}
+
+.tree-container .instagram-user {
+  margin-top: 15px;
+  color: var(--purple);
+   text-align: center;
+}
+
+.tree-container .links-container {
+  margin-top: 17px;
+  display: flex;
+  flex-direction: column;
+}
+
+.links-container .link {
+  margin-top: 16px;
+  width: 325px;
+
+  border: 1px solid var(--purple);
+  border-radius: 10px;
+
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+
+  padding: 12px 0;
+
+  transition: ease 0.3s;
+}
+
+.links-container .link:hover {
+  background: var(--purple);
+  color: var(--body-bg-color);
+
+  transition: ease 0.5s;
+}
+
+.tree-container .socials-container {
+  margin-top: 68px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 29px;
+}
+
+.socials-container .social {
+  transform: scale(0.9);
+
+  transition: ease 0.2s;
+}
+
+.socials-container .social:hover {
+  transform: scale(1);
+}
+
+  
+  
